@@ -1,0 +1,941 @@
+
+@media screen {
+
+BODY { background:  white ; 
+              color: black ; 
+       font-size: 0.95em;
+       margin: 0 0 0 4 ;
+       font-family: arial, verdana,  "swiss 721 BT", "sans-serif"  }
+  
+.rc { background : rgb(236,237,157) URL(../img/bg-yb.jpg)  fixed repeat;}
+.sl { background : URL(../img/bg-yb.jpg)  fixed repeat;}
+
+P { margin-left 8;}
+
+
+
+
+A:link    { color: blue ; text-decoration: none}
+A:visited { color: blue ; text-decoration: none} 
+A:hover   { color: black; text-decoration: none;  background: yellow }
+
+A:hover.img { color: black; font-weight: bold; background: transparent }
+
+
+ADDRESS {
+	 background-color: #003080 ;
+         background-image: URL(../img/trans.gif); 
+         background-repeat: no-repeat;
+         background-position:  0 0 ; 
+	 height: 52px; 
+         padding: 1,0,2,80 ;
+         margin: 0 0 0 0;
+         clear: all;
+         border-color: #d0d000 #001060 #001020 #808000;
+         border-width: 4px 5px 4px 4px ;
+         border-style: solid; 
+         color: white;
+         font-style: italic;
+         font-size: 12px;
+         font-family:  tahoma, sans-serif } 
+ADDRESS  A:link    { color: yellow }
+ADDRESS  A:visited { color: yellow } 
+ADDRESS  A:hover   { color: black; font-style: normal; background: yellow }
+
+
+BLOCKQUOTE { color: #330033  }  
+
+CAPTION { caption-side: top;
+          text-align: center;
+          color: white;
+          background: black; 
+          font-size : 1.5em ;
+          font-weight : bold;
+          font-family: Arial, sans-serif }
+CAPTION  A:link    { color: yellow }
+CAPTION  A:visited { color: yellow } 
+CAPTION  A:hover   { color: black } 
+
+DT {  font-weight: bold ;
+      text-indent: 20 }
+dd     {  text-indent: 60 }
+ 
+dd.90  {  text-indent: 90 }
+dd.100 {  text-indent: 100 }
+dd.120 {  text-indent: 120 }
+dd.150 {  text-indent: 150 }
+dd.180 {  text-indent: 180 }
+dd.120 {  text-indent: 120 }
+dd.210 {  text-indent: 210 }
+dd.240 {  text-indent: 240 }
+
+
+  H1 { font-size: 2.3em; font-weight: bold; text-align: center; padding: 0; margin: 2;
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+  H2 { font-size: 2.0em; font-weight: bold; text-align: center; padding: 0; margin: 0; 
+       font-family: arial, verdana, "swiss 721 BT", sans-serif }
+  H3 { font-size: 1.5em; font-weight: bold;  margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+  H4 { font-size: 1.37em; font-weight: bold; margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+  H5 { font-size: 1.3em; font-weight: bold; margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+  H6 { font-size: 1.08em; font-weight: bold ; margin: 0; display: run-in;
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+
+h1.cr { color:blue;
+	font-size: 2.5em;
+	font-style: italic;
+	font-family:  "Book Antiqua", "Times New roman", serif}
+ 
+ H1.rc {color: #0000b0;
+	font-size: 2.5em;
+        font-weight: extra-light;
+        text-align: center; 
+	padding: 0; 
+	margin: 2;
+	font-family:  "Book Antiqua", "Times New roman", serif}
+ H1.sl {color: #0000b0;
+	font-size: 3em;
+        font-weight: extra-light;
+        text-align: center; 
+	padding: 0; 
+	margin: 2;
+	font-family:  "Book Antiqua", "Times New roman", serif}
+
+
+
+HR { margin: 4 ; line-height: 4} 
+  
+MENU MENU  { font-size: 90% ; font-weight: normal; margin-left: 0.8em}  
+
+PRE { font-size: 0.95em ;
+      font-family: "andale mono", "monospace 821 BT", "courier new", "monospace" }
+
+TABLE { border-collapse: collapse;
+ 	border-color: black;
+        margin: 0;
+        elevation: 2; 
+     	font-size : 1.0em ;}
+
+TABLE  A:hover { color: black; font-style: normal;  background: yellow; }
+
+TABLE TD { padding : 2,8,2,8 ; 
+	  border-color: black;
+     	  margin : 0 ; }
+
+TABLE TH { background: #f0f0f0; 
+ 	   padding : 2,8,2,8 ;
+ 	   text-align: center; 
+	   border-color: black;
+     	   margin : 0 ;
+           font-size : 1.0em ;
+     	   font-weight : bold;}
+
+
+TABLE.noborder    { border-width : 0}
+TABLE.noborder TD { border-width : 0}
+TABLE.noborder TH { border-width : 0}
+
+TABLE.border    { border-width : 2;
+		  border-style: solid;
+		  border-color: black}
+TABLE.border TD { border-width : 1;
+		  border-style: solid;}
+TABLE.border TH { border-width : 1;
+		  border-style: solid;}
+
+
+
+
+
+TT {  margin-left: 8px; font-size : 0.95em ; font-family: "andale mono", "monospace 821 BT", "courier new", "monospace" }
+TT A:hover { color: black; font-style: normal;  background: yellow; 
+            font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+ 
+UL {  font-size : 1.0em ;}
+
+
+
+
+
+.arial   { font-family: arial, verdana, "swiss 721 BT", "sans-serif" }
+.courier { font-family: "courier new", "rod", "monospace" }
+.serif   { font-family: "Duch801 RM BT", "David Regular",
+            "times new roman",  "dutch" ,"serif" }
+.tahoma  { letter-spacing: 1 ; font-family: "tahoma", "sans-serif" }
+.times   { font-family: "times new roman",  "dutch", "serif" }
+.verdana { font-family: "verdana", "sans-serif" }
+
+
+
+.black     {color: black }
+.blue      {color: blue }
+.brown     {color: brown }
+.green     {color: green }
+.orange    {color: #f08000 }
+.red       {color: red }
+.white     {color: white }
+.whitebold {color: white ; font-weight: bold}
+.yellow    {color: yellow }
+
+.bold      {font-weight: bold}
+.italic    {font-style: italic}
+
+.trans {color: white ;  filter : alpha (opacity=70) ; 
+          font-family:  arial, "swiss 721 BT", "sans-serif" }
+  
+.fade {filter: alpha( opacity=100, finishopacity=0, style=2, startx=0, starty=0, finishx=1000, finishy=799)}
+.fadedown {filter: alpha( opacity=100, finishopacity=0, style=1, startx=0, starty=0, finishx=200, finishy=400)}
+
+
+.blur {filter: blur(add=1, direction=135, strength=50)  }
+
+#red {color: red }
+
+
+
+
+
+
+ 
+
+.rccont     { font-family : arial, "swiss 721 BT", "sans-serif" }
+.rccont TABLE.tens TH { text-align: left; background: ffffc0;
+           border-width: 0 ;
+   padding: 1 1 1 16 ; width: 60%; 
+   font-size : 1.1em ; }
+
+.rccont TABLE.tens TD { text-align: left; 
+           border-width: 0 ;
+           padding: 1 1 1 16 ; }
+
+
+
+
+TABLE.black { color : black ;  border-width : 2; margin-top: 0 }
+
+
+
+
+TABLE.list { width: 100%;
+        border-width : 0;}
+TABLE.list TH  { text-align: left; background: #dfdfff;
+                 width: 100% ; padding: 2,8,2,8; border-width: 0 ;
+                 font-size : 1.5em ; font-weight : bold;
+                 font-family: Arial, sans-serif}
+TABLE.list TD  { text-align: left; 
+                 width: 100% ; border-width: 0 ;
+                 font-size : 0.95em ;}
+
+TABLE.list LI .i {COLOR: black; 
+                  font-face: "times new roman" , "serif"}
+
+TABLE.list LI .local {COLOR: #005500;}
+
+
+.menu { color : black ;
+	width : 90%   ;
+	margin-left: 5%;     
+	margin-right: 5%;     
+	background: #7070f0;
+         border-color: #d0d000 #001060 #001020 #808000;
+         border-width: 4px 5px 4px 4px ;
+        border-style: solid;
+        elevation: 2;
+        font-size: .95em;
+        font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+.menu TD { background: #7070c0 ;
+           padding : 2,8,2,8 ;
+           margin: 0;
+           border : 1;
+        border-style: solid;
+           text-align: center;
+           font-style: normal }
+.menu TH { background: #404080 ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border : 1;
+        border-style: solid;
+           text-align: center;
+           font-weight: normal }
+.menu A:link { color: yellow }
+.menu A:visited { color: yellow }
+.menu A:hover { color: black ; background: yellow }
+
+.menu2  { color : black ;
+        background: #7070f0;
+        width: 100%; 
+        margin: 0, 0, 0, 0;
+        border-width : 2;
+        border-color: #6060ff; 
+        border-style: solid;
+        elevation: 2;
+        font-size: .95em;
+        font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+.menu2 TD { background: #d0fff0 ;
+           padding : 2,8,2,8 ;
+           margin: 0;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-style: normal }
+.menu2 TH { background: orange ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-weight: normal }
+
+
+.menu3  { color : black ;
+        background: #7070f0;
+        width: auto; 
+        margin: 0, 0, 0, 0;
+        border-width : 2;
+        border-color: #6060ff; 
+        border-style: solid;
+        elevation: 2;
+        font-size: .95em;
+        font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+.menu3 TD { background: #e0ffe0 ;
+           padding : 2,8,2,8 ;
+           margin: 0;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-style: normal }
+.menu3 TH { background: orange ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-weight: normal }
+
+
+
+
+.menuskin{	position:absolute;
+	width:auto;
+	background-color:yellow;
+        border-width : 2;
+        border-color: #6060ff; 
+        border-style: solid;
+	font:normal 12px Arial, Verdana, sans-serif;
+	line-height:18px;
+	z-index:100;
+	visibility:hidden;}
+
+.menuskin a{	text-decoration:none;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;}
+
+.menuskin2{	position:absolute;
+	width:auto;
+	background-color:#80c0ff;
+        border-width : 2;
+        border-color: red; 
+        border-style: solid;
+	font:normal 12px Arial, Verdana, sans-serif;
+	line-height:18px;
+	z-index:100;
+	visibility:hidden;}
+
+.menuskin2 a{	text-decoration:none;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;}
+
+#mouseoverstyle   { background-color:yellow;}
+
+#mouseoverstyle a { color:white;	background: black;}
+
+
+.model      { background: white }
+
+
+MENU.nomarg  { margin-top: 0 ; margin: 0 ;  padding: 0} 
+.nomarg LI   { list-style-type: none }  
+
+.nps { color : black ; background: white;  border-width : 2 ; margin: 0 0 0 0 ;
+       border-style: ; font-size: .95em; 
+       font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+.nps TH { text-align: center; font-size : 1.3em ;
+          font-weight : bold; font-family: Arial, sans-serif}
+  
+TABLE.nps { color : black ; background: white;  border-width : 2 ; margin: 0 0 0 0 ;
+            border-style: ; font-size: .95em; 
+            font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+TABLE.nps TH { text-align: center; font-size : 1.3em ;
+               font-weight : bold; font-family: Arial, sans-serif}
+  
+ 
+DL.nps1  DT { font-weight: bold;
+              font-family:  arial, verdana, "swiss 721 BT", sans-serif   }
+DL.nps1  DD { white-space: pre ; font-size: 0.94em;
+              font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+
+.ovl        {text-decoration: overline ; font-weight: demi-bold }
+
+
+ 
+.photo  { background: black ; color: white }
+.photo A:link     { color: yellow }
+.photo A:visited  { color: yellow } 
+.photo A:hover    { color: black; background: yellow }
+.photo BLOCKQUOTE { color: white  }  
+.photo IMG        { border: 0 ; margin: 8}
+
+BODY.photo TABLE.menu A:link    { color: blue }
+BODY.photo TABLE.menu A:visited { color: blue }
+BODY.photo TABLE.menu A:hover   { color: yellow; font-style: normal; background: black}
+
+
+MENU.plain MENU  { font-size: 86% ; margin-left: 2em}  
+MENU.plain LI  { list-style-type: none }  
+
+
+
+.red-line {color: red; width: 80%; height: 4 ; margin: 0 ; clear: all }
+
+
+
+
+TABLE.tens    { width: 100%; border-width: 0 ; 
+                font-family : arial, "swiss 721 BT", "sans-serif" }
+TABLE.tens TD { text-align: left;  border-width: 0 ;}
+TABLE.tens TH { text-align: left; background: #ffffd0; 
+                border-width: 0 ;
+                width: 60% ; font-size : 1.1em ;}
+  
+.term H4 { 
+	border-top: 2;
+        margin-top: 5px;
+	border-align: center;
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+	border-style: solid;
+	width: 70%;
+	border-color: blue;
+	       }
+
+
+.top { 	text-align: center;
+	margin: 4,10%,4,10% ;
+      	font-size: 1em;
+	line-height: 1.1em  ;
+	clear: all ;
+	border-top: 2;
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+	border-style: solid;
+	border-color:gray; }
+
+
+
+table.web {color : black ;
+      background: #a0f0a0;
+      border-width : 2; 
+      float: right;
+      margin: 0 0 0 -7;
+      border-color: #6060ff #4040ff #000080 #5050ff; 
+      border-style: none;
+      elevation: 2;
+      font-size: .98em;
+      font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+
+
+table.web TD { border-style: none; background: #a0f0a0;}
+table.web TH { border-style: none; background: #80f080; }
+
+IMG.wide {width: 10%}
+
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+ 
+
+
+ 
+
+
+
+
+
+BODY { background: white;
+       color: black ;
+       width: 100% ;
+       font-size: 10pt ;
+       font-family:  font-family:  verdana, arial,   "swiss 721 BT", "sans-serif"}
+  
+P { margin-left 8; }
+
+ 
+A:link    { color: blue ; text-decoration: none}
+A:visited { color: blue ; text-decoration: none} 
+A:hover   { color: blue ; text-decoration: none}
+
+A:hover.img { color: black; font-weight: bold; background: transparent }
+
+ADDRESS { background-color: white ;
+          background-image: URL(../../lib/img/bar.gif); 
+          background-repeat: no-repeat;
+          background-position:  0 0 ; 
+          width: 100%;
+          height: 13.8mm ;
+          padding: 1,0,2,80 ;
+          margin: 0 0 0 0;
+          clear: all;
+          border-color: red gray #0000d0 gray;
+          border-width: 1mm 0.5mm 1mm 0.5mm;
+          border-style: solid; 
+          font-style: italic; 
+          color: black;
+          font-size: 8pt;
+          font-family:  tahoma, sans-serif } 
+
+
+BLOCKQUOTE { color: #330033  }  
+
+CAPTION { caption-side: top;
+          text-align: center;
+          color: black;
+          background: #d0d0d0; 
+          border-color: #808080;
+          border-width: 0.5mm;
+          border-style: solid; 
+          font-size : 1.2em ;
+          font-weight : bold;
+          font-family: Arial, sans-serif }
+
+
+DT {  font-weight: bold }
+dd {  text-indent: 30 }
+
+
+H1 { font-size: 2em;
+     font-weight: bold;
+     text-align: center;
+     padding: 0;
+     margin: 2;
+     font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+H2 { font-size: 1.6em;
+     font-weight: bold;
+     text-align: center;
+     padding: 0;
+     margin: 0; 
+     font-family: arial, verdana, "swiss 721 BT", sans-serif }
+H3 { font-size: 1.4em; font-weight: bold; margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+H4 { font-size: 1.3em; font-weight: bold; margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+H5 { font-size: 1.2em; font-weight: bold; margin: 0; 
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif  }
+H6 { font-size: 1.08em; font-weight: bold ; margin: 0;  display: run-in;
+       font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+
+
+ 
+HR { margin: 4 ; line-height: 4} 
+  
+MENU MENU  { font-size: 90% ; font-weight: normal; margin-left: 0.8em}  
+
+PRE   { font-size: 0.95em ;
+        font-family: "andale mono", "monospace 821 BT", "courier new", "monospace" }
+
+TABLE { border-collapse: collapse; 
+        color : black ;
+        border-width : 0.5mm;
+        margin-top: 0;
+        font-size : 0.85em ;
+        font-family: arial, verdana, "swiss 721 BT", sans-serif }
+
+TABLE  A:hover { color: black; font-style: normal;  background: yellow; }
+
+TABLE TD { padding : 2,8,2,8 ; 
+	   border-color: black;
+     	   margin : 0 ; }
+
+TABLE TH { background: f0f0f0; 
+ 	   padding : 2,8,2,8 ;
+ 	   text-align: center; 
+	   border-color: black;
+     	   margin : 0 ;
+           font-size : 1.0em ;
+           font-weight : bold;}
+
+
+TABLE.noborder    { border-width : 0}
+TABLE.noborder TD { border-width : 0}
+TABLE.noborder TH { border-width : 0}
+
+TABLE.border { border-width : 2;
+	       border-style: solid;
+	       border-color: black}
+TABLE.border TD { border-width : 1;
+	          border-style: solid;}
+TABLE.border TH { border-width : 1;
+		  border-style: solid;}
+
+
+
+
+
+TT         { margin-left: 8px; font-size : 0.95em ;
+             font-family: "andale mono", "monospace 821 BT", "courier new", "monospace" }
+TT A:hover { color: black; font-style: normal;  
+             font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+ 
+UL {  font-size : 1.0em ;}
+
+
+
+
+
+.sl {color: black ;
+         background: white fixed; 
+         font-family:  arial, "swiss 721 BT", "sans-serif" }
+
+
+.arial   { font-family: arial, verdana, "swiss 721 BT", "sans-serif" }
+.courier { font-family: "courier new", "rod", "monospace" }
+.serif   { font-family: "Duch801 RM BT", "David Regular",
+            "times new roman",  "dutch" ,"serif" }
+.tahoma  { letter-spacing: 1 ; font-family: "tahoma", "sans-serif" }
+.times   { font-family: "times new roman",  "dutch", "serif" }
+.verdana { font-family: "verdana", "sans-serif" }
+
+
+.black     {color: black }
+.blue      {color: blue }
+.brown     {color: brown }
+.green     {color: green }
+.orange    {color: #f08000 }
+.red       {color: red }
+.white     {color: white }
+.whitebold {color: white ; font-weight: bold}
+.yellow    {color: yellow }
+
+.bold      {font-weight: bold}
+.italic    {font-style: italic}
+
+.trans { color: white ;  filter : alpha (opacity=70) ; 
+         font-family:  arial, "swiss 721 BT", "sans-serif" }
+.fade  {filter: alpha( opacity=100, finishopacity=0, style=2, startx=0, starty=0, finishx=1000, finishy=799)}
+.blur  {filter: blur(add=1, direction=135, strength=50)  }
+
+#red {color: red }
+
+
+
+
+
+
+.slcont               { font-family : arial, "swiss 721 BT", "sans-serif" }
+.slcont TABLE.tens TH { text-align: left; background: #ffffc0;
+                        border-width: 0 ;
+                        padding: 1 1 1 16 ; width: 60%; 
+                        font-size : 1.1em ; }
+.slcont TABLE.tens TD { text-align: left; 
+                        border-width: 0 ;
+                        padding: 1 1 1 16 ; }
+
+
+
+
+TABLE.black { color : black ;  border-width : 2; margin-top: 0 }
+
+
+.contents   { font-family : arial, "swiss 721 BT", "sans-serif" }
+.country    { font-family : arial, "swiss 721 BT", "sans-serif" }
+
+.error      { background : #ffff80 ; color: red;
+               font-family : arial, "swiss 721 BT", "sans-serif" }
+
+.sl      { background : url(../img/synaliso-bg.gif) fixed #f6f6ff ;
+               font-family : arial, "swiss 721 BT", "sans-serif" }
+
+.sl TABLE.tens    {  border-width : 0;}
+
+.sl TABLE.tens TD { text-align: left; 
+   border-width : 0;
+   padding: 1 1 1 16 ; 
+   font-size : 0.95em ;}
+
+.sl TABLE.tens TH { text-align: left; background: #e0e0ff;
+   border-width : 0;
+   padding: 1 1 1 16 ; width: 60%; 
+   font-size : 1.1em ;
+   font-weight : bold;}
+
+
+
+TABLE.list { width: 100%;
+        border-width : 0;}
+TABLE.list TH  { text-align: left; background: #dfdfff;
+                  width: 100% ; padding: 2,8,2,8; border-width: 0 ;
+                  font-size : 1.5em ; font-weight : bold;
+                  font-family: Arial, sans-serif}
+TABLE.list TD  { text-align: left; 
+                  width: 100% ; border-width: 0 ;
+                  font-size : 0.95em ;}
+
+TABLE.list LI .i {COLOR: black; 
+                  font-face: "times new roman" , "serif"}
+
+TABLE.list LI .local {COLOR: #005500;}
+
+
+
+
+.manufact   { font-family : arial, "swiss 721 BT", "sans-serif" }
+
+
+
+.menu { color : black ;
+        background: #7070f0 ;
+        border-width : 2; width: 100% ; 
+        margin: 0 0 0 0 ;
+        border-color: #6060ff #4040ff #000080 #5050ff ; 
+        border-style: bevel; 
+        elevation: 2; 
+        font-size: .92em ;
+        font-family : arial, verdana, "swiss 721 BT", sans-serif }
+.menu TD { background: yellow ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border: 1;
+           text-align: center;
+           font-style: normal }
+.menu TH { background: orange ;
+           padding : 2,8,2,8 
+           margin: 0 ;
+           border: 1;
+           text-align: center;
+           font-weight: normal }
+
+
+.menu2  { color : black ;
+        background: #7070f0;
+        width: 100%; 
+        margin: 0, 0, 0, 0;
+        border-width : 2;
+        border-color: 6060ff; 
+        border-style: solid;
+        elevation: 2;
+        font-size: .95em;
+        font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+.menu2 TD { background: #d0fff0 ;
+           padding : 2,8,2,8 ;
+           margin: 0;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-style: normal }
+.menu2 TH { background: orange ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-weight: normal }
+
+
+.menu3  { color : black ;
+        background: #7070f0;
+        width: auto; 
+        margin: 0, 0, 0, 0;
+        border-width : 2;
+        border-color: 6060ff; 
+        border-style: solid;
+        elevation: 2;
+        font-size: .95em;
+        font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+.menu3 TD { background: #e0ffe0 ;
+           padding : 2,8,2,8 ;
+           margin: 0;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-style: normal }
+.menu3 TH { background: orange ;
+           padding : 2,8,2,8 ;
+           margin: 0 ;
+           border : 1;
+           border-style: solid;
+           text-align: center;
+           font-weight: normal }
+
+
+
+
+
+.menuskin  { position:absolute;
+	     width:auto;
+	     background-color:yellow;
+             border-width : 2;
+             border-color: #6060ff; 
+             border-style: solid;
+	     font:normal 12px Arial, Verdana, sans-serif;
+	     line-height:18px;
+	     z-index:100;
+	     visibility:hidden; }
+
+.menuskin a{ text-decoration:none;
+	     color:black;
+	     padding-left:10px;
+	     padding-right:10px; }
+
+#mouseoverstyle  {background-color:yellow; }
+#mouseoverstyle a{color:white;	background: black; }
+
+
+.model      { background: white }
+
+
+MENU.nomarg  { margin-top: 0 ; margin: 0 ;  padding: 0} 
+.nomarg LI  { list-style-type: none }  
+
+.nps { color : black ; background: white;  border-width : 2 ; margin: 0 0 0 0 ;
+              border-style: ; font-size: .95em; 
+              font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+.nps TH { text-align: center; font-size : 1.3em ;
+                 font-weight : bold; font-family: Arial, sans-serif}
+  
+TABLE.nps    { color : black ; background: white;  border-width : 2 ; margin: 0 0 0 0 ;
+                border-style: ; font-size: .95em; 
+                font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+TABLE.nps TH { text-align: center; font-size : 1.3em ;
+                font-weight : bold; font-family: Arial, sans-serif}
+  
+ 
+DL.nps1  DT {  font-weight: bold;
+               font-family:  arial, verdana, "swiss 721 BT", sans-serif   }
+DL.nps1  DD { white-space: pre ; font-size: 0.94em;
+               font-family: "andale mono", "monospace 821 BT", "courier new", "monospace"}
+
+
+.ovl        {text-decoration: overline }
+
+
+
+ 
+.photo  { background: black ; color: white }
+.photo A:link    { color: yellow }
+.photo A:visited { color: yellow } 
+.photo A:hover   { color: yellow }
+.photo BLOCKQUOTE { color: white  }  
+.photo IMG       { border: 0 ; margin: 8}
+
+BODY.photo TABLE.menu A:link { color: blue }
+BODY.photo TABLE.menu A:visited { color: blue }
+BODY.photo TABLE.menu A:hover { color: blue }
+
+
+MENU.plain MENU  { font-size: 86% ; margin-left: 2em}  
+MENU.plain LI  { list-style-type: none }  
+
+
+
+.red-line {color: red; width: 80%; height: 4 ; margin: 0 ; clear: all }
+
+
+
+
+TABLE.tens  { width: 100%; border-width: 0 ; 
+              font-family : arial, "swiss 721 BT", "sans-serif" }
+TABLE.tens TD { text-align: left;  border-width: 0 ;}
+TABLE.tens TH { text-align: left; background: #ffffd0; 
+                border-width: 0 ;
+                width: 60% ; font-size : 1.1em ;}
+  
+.term H4 { 
+	border-top: 2;
+        margin-top: 5px;
+	border-align: center;
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+	border-style: solid;
+	width: 70%;
+	border-color: blue;
+	       }
+
+
+.top { 	
+	text-align: center;
+	margin: 4,10%,4,10% ;
+      	font-size: 1em;
+	line-height: 1.1em  ;
+	clear: all ;
+	border-top: 2;
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+	border-style: solid;
+	border-color:gray;
+	}
+
+
+
+.web {color : black ;
+      background: #c0f0ff;
+      border-width : 2; 
+      float: right;
+      margin: 0 0 0 -7;
+      border-color: #6060ff #4040ff #000080 #5050ff; 
+      border-style: none;
+      elevation: 2;
+      font-size: .98em;
+      font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+
+TABLE.web { color : black ; background: #c0f0ff;  border-width : 2; 
+               float: right;
+               margin: 0 0 0 -7
+               border-color: #6060ff #4040ff #000080 #5050ff; 
+               border-style: none; elevation: 2; font-size: .98em;
+               font-family:  arial, verdana, "swiss 721 BT", sans-serif }
+
+.web TD { border-style: none; }
+.web TH { border-style: none;  }
+
+IMG.wide {width: 10%}
+
+
+ 
+
+}
+ 
+
+
+
+
